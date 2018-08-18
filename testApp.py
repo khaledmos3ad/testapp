@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-	numbers = random.random()
-	return "If you are reading this, the deployment has worked! You're random number is " + str(numbers) + ". Click refresh for a new one."
+	numbers = random.randint(1,9)
+	return "If you are reading this, the second deployment has worked! You're random integer is " + str(numbers) + ". Click refresh for a new one."
 
 if __name__ == '__main__':
 	app.run()
