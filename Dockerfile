@@ -1,5 +1,5 @@
 # Start with a base image Python3 
-FOM python:3-slim
+FROM python:3-slim
 
 # Maintainer Info
 LABEL maintainer="khaled.mosaad-mohamed@vodafone.com"
