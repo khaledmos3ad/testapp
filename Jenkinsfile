@@ -19,7 +19,7 @@ pipeline {
         stage('undeploy') {
             steps {
                 echo 'running...'
-                sh 'docker rm -f testapp_container
+                sh 'docker rm -f testapp_container'
             }
         }
         stage('deploy') {
